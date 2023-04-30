@@ -42,6 +42,7 @@ jobs:
 
      - uses: webbertakken/unity-builder@v2
        with:
+         projectPath : /LD53
          targetPlatform: WebGL
 
      - uses: actions/upload-artifact@v3
@@ -80,3 +81,5 @@ jobs:
          ITCH_USER: NOTDEPRESSEDEVELOPER
          BRANCH: itch-io
          PACKAGE: build/WebGL
+
+         ProjectSettings/ProjectVersion.txt
