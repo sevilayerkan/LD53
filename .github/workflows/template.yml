@@ -81,5 +81,3 @@ jobs:
          ITCH_USER: NOTDEPRESSEDEVELOPER
          BRANCH: itch-io
          PACKAGE: build/WebGL
-
-         ProjectSettings/ProjectVersion.txt
